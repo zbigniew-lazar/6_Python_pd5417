@@ -1,0 +1,7 @@
+Liczba nukleotydów:
+A: 4
+G: 4
+C: 3
+T: 4
+
+Data utworzenia: 2026-05-29 21:17:26.238802
