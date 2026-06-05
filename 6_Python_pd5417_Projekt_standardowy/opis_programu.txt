@@ -1,0 +1,41 @@
+OPIS PROGRAMU
+
+Program analizuje krótkie sekwencje DNA zapisane w pliku sekwencje.txt.
+
+DNA składa się z czterech liter: A, T, G i C. Program sprawdza, czy każda sekwencja ma tylko takie litery.
+
+1. Program otwiera plik sekwencje.txt.
+W pliku są sekwencje w formacie FASTA. Nazwa sekwencji zaczyna się od znaku >, a pod spodem jest sekwencja DNA.
+
+2. Program pyta użytkownika o własną sekwencję.
+Jeżeli użytkownik wpisze sekwencję, program dopisuje ją do pliku.
+
+3. Program zapisuje sekwencje do słownika.
+W słowniku nazwa sekwencji jest kluczem, a informacje o sekwencji są wartościami.
+
+4. Program liczy parametry sekwencji:
+- długość,
+- procent GC,
+- procent AT,
+- liczbę A, T, G i C,
+- liczbę błędnych znaków,
+- czy sekwencja zaczyna się od ATG,
+- liczbę pełnych kodonów.
+
+5. Program zamienia słownik na DataFrame.
+DataFrame to tabela z biblioteki pandas.
+
+6. Program usuwa błędne sekwencje.
+Błędne są takie, które mają inne znaki niż A, T, G i C.
+
+7. Program usuwa duplikaty.
+Jeżeli dwie sekwencje są takie same, zostaje tylko jedna.
+
+8. Program zapisuje wyniki do plików CSV.
+
+9. Program tworzy trzy wykresy:
+- wykres długości sekwencji,
+- wykres zawartości GC,
+- wykres liczby nukleotydów A, T, G i C.
+
+Sekwencje w projekcie są związane z drożdżami i genami metabolizmu cukrów, między innymi HXK1, HXK2, GLK1 i RAG5.
